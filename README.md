@@ -18,29 +18,6 @@ This project is a lightweight Visual Retrieval-Augmented Generation (RAG) applic
 
 ## 📁 Project Structure
 
-MultimodalRAG/
-│
-├── app.py # Streamlit frontend
-├── .env # API keys and env vars
-├── requirements.txt # All dependencies
-│
-├── core/
-│ ├── ocr.py # EasyOCR extraction
-│ ├── embed_store.py # Chroma DB & embedding
-│ ├── retriever.py # Vector similarity retriever
-│ └── qa_generator.py # Gemini API-based generator
-│
-├── chroma_db_multimodal/ # Persistent vector DB
-├── outputs/ # For generated audio (optional)
-├── assets/ # Screenshots, logos, GIFs
-
-
----
-
-## 🔧 Installation
-
-### 1. Clone the repo
-
 ```bash
 git clone ## 📁 Project Structure
 
@@ -60,8 +37,8 @@ MultimodalRAG/
 ├── outputs/ # For generated audio (optional)
 ├── assets/ # Screenshots, logos, GIFs
 
+'''
 
----
 
 ## 🔧 Installation
 
